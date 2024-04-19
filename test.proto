@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message HgBleMsgPack {
+    // bytes mac = 1;
+    // sint32 rssi = 2;
+    // bytes raw = 3;
+    int64 timestamp = 4;
+}
